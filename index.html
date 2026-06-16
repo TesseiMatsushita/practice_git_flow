@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git練習用 電卓アプリ</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="calculator">
+      <h1>Simple Calculator</h1>
+
+      <input id="display" class="display" type="text" value="0" readonly />
+
+      <div class="keys">
+        <button class="key key-clear" data-action="clear">C</button>
+        <button class="key" data-action="delete">⌫</button>
+        <button class="key key-operator" data-value="/">÷</button>
+        <button class="key key-operator" data-value="*">×</button>
+
+        <button class="key" data-value="7">7</button>
+        <button class="key" data-value="8">8</button>
+        <button class="key" data-value="9">9</button>
+        <button class="key key-operator" data-value="-">−</button>
+
+        <button class="key" data-value="4">4</button>
+        <button class="key" data-value="5">5</button>
+        <button class="key" data-value="6">6</button>
+        <button class="key key-operator" data-value="+">+</button>
+
+        <button class="key" data-value="1">1</button>
+        <button class="key" data-value="2">2</button>
+        <button class="key" data-value="3">3</button>
+        <button class="key key-equal" data-action="calculate">=</button>
+
+        <button class="key key-zero" data-value="0">0</button>
+        <button class="key" data-value=".">.</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
