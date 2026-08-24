@@ -49,7 +49,7 @@ body {
 .btn {
   height: 64px;
   border: none;
-  border-radius: 18px;
+  border-radius: 50%;
   font-size: 22px;
   color: #5c5470;
   background: #eceaf5;
@@ -83,7 +83,7 @@ body {
 
 .btn-zero {
   grid-column: span 2;
-  border-radius: 18px;
+  border-radius: 999px;
   text-align: left;
   padding-left: 28px;
 }
